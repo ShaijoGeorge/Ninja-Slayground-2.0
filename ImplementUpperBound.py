@@ -1,4 +1,4 @@
-from typing import List  # Import List from the typing module
+from typing import List
 def upperBound(arr: List[int], x: int, n: int) -> int:
     low,high=0,n-1
     ans=n
