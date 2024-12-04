@@ -1,4 +1,5 @@
-def upperBound(arr: [int], x: int, n: int) -> int:
+from typing import List  # Import List from the typing module
+def upperBound(arr: List[int], x: int, n: int) -> int:
     low,high=0,n-1
     ans=n
     while low<=high:
@@ -7,7 +8,7 @@ def upperBound(arr: [int], x: int, n: int) -> int:
             low=mid+1
         else:
             ans=mid
-            high=mid-1      
+            high=mid-1
     return ans
 
 """
