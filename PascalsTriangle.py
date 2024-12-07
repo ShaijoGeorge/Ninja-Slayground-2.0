@@ -15,9 +15,7 @@ Problem statement
 You are given an integer N. Your task is to return a 2-D ArrayList containing the pascal’s triangle till the row N.
 
 A Pascal's triangle is a triangular array constructed by summing adjacent elements in preceding rows. Pascal's triangle contains the values of the binomial coefficient. For example in the figure below.
-
-img alt="Array"
-        src="https://images.app.goo.gl/PQUqe2vrc2xEzUYQ8" width="540"/>
+https://images.app.goo.gl/PQUqe2vrc2xEzUYQ8
 
 For example, given integer N= 4 then you have to print.
 
